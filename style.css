@@ -1,0 +1,52 @@
+body {
+  font-family: Outfit, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  width: 375px;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+.cardImage {
+  border-radius: 20px;
+  background-image: url(./images/image-qr-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 10px;
+
+  height: 400px;
+}
+.cardText {
+  text-align: center;
+  font-size: medium;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+}
+.cardText p {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
